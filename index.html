@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bio Shop - Produits Bio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f4fff4; }
+        header { text-align: center; margin-bottom: 30px; }
+        h1 { color: #45a049; }
+        .intro { font-size: 1.1em; margin-bottom: 16px; color: #333; }
+        .produits { display: grid; gap: 24px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+        .card { background: #fff; border-radius: 10px; box-shadow: 0 2px 8px #aaa2; padding: 20px; }
+        .card img { width: 100%; height: 150px; object-fit: cover; border-radius: 8px; }
+        .contact { margin-top: 40px; text-align: center; }
+        .btn { display: inline-block; margin: 10px; padding: 12px 24px; background: #45a049; color: #fff; border-radius: 5px; text-decoration: none; font-weight: bold; }
+        .btn:hover { background: #388038; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue chez Bio Shop !</h1>
+        <p class="intro">
+            Tous nos produits sont <b>100 % bio</b>, cultivés et récoltés avec passion par Monsieur : <b>Khalide</b> sur sa terre située à <b>Casablanca</b>.<br>
+            Des produits naturels, sains et locaux, livrés directement chez vous.
+        </p>
+        <p>Découvrez notre sélection :</p>
+    </header>
+    <section class="produits">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80" alt="Miel bio">
+            <h2>Miel Bio</h2>
+            <p>Miel pur de montagne, 250g – récolte artisanale.</p>
+            <a href="https://wa.me/212638133509" class="btn">Commander sur WhatsApp</a>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="Huile d'Argan">
+            <h2>Huile d'Argan Bio</h2>
+            <p>Huile d’argan pressée à froid, 100ml – qualité supérieure.</p>
+            <a href="https://wa.me/212638133509" class="btn">Commander sur WhatsApp</a>
+        </div>
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Eggs_2.jpg" alt="Oeufs blancs bio">
+            <h2>Œufs Bio</h2>
+            <p>Œufs frais de poules élevées en plein air, par 12.</p>
+            <a href="https://wa.me/212638133509" class="btn">Commander sur WhatsApp</a>
+        </div>
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Cucumis_sativus-1.jpg" alt="Concombres bio">
+            <h2>Concombres Bio</h2>
+            <p>Concombres fraîchement cueillis, 1kg.</p>
+            <a href="https://wa.me/212638133509" class="btn">Commander sur WhatsApp</a>
+        </div>
+    </section>
+    <section class="contact">
+        <h3>Contact</h3>
+        <p>Pour toute question, contactez-nous sur WhatsApp ou par e-mail :</p>
+        <a href="https://wa.me/212638133509" class="btn">WhatsApp</a>
+        <a href="mailto:achrafessaleh001@gmail.com" class="btn">E-mail</a>
+    </section>
+</body>
+</html>
